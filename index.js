@@ -23,7 +23,7 @@ require("./routes/authRoutes")(app);
 mongoose.connect(keys.mongoURI, { useNewUrlParser: true });
 
 app.get("/", (req, res) => {
-    res.send({hi: "there"});
+    res.send("Fala meu querido");
 });
 
 const PORT = process.env.PORT || 5000;
