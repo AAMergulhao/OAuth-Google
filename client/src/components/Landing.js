@@ -6,7 +6,7 @@ const Landing = () =>{
             <h1>
                 Nexus
             </h1>
-            Fala meu querido
+            Home page
         </div>
     );
 };
